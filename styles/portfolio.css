@@ -1,5 +1,12 @@
+body {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
 .hero {
   padding: 50px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -8,14 +15,19 @@
   font-weight: 300;
 }
 
+.hero a {
+  margin-top: 20px;
+}
+
 .preview {
   display: block;
   margin: 20px auto;
   max-width: 900px;
+  text-align: center;
 }
 
 .preview h3 {
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .preview .btn {
