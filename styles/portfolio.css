@@ -34,13 +34,19 @@ body {
   margin-top: 50px;
 }
 
-.preview .btn {
+.preview .btn,
+#email-link {
   color: lightslategray;
   padding-left: 0;
 }
 
-.preview .btn:hover {
+.preview .btn:hover,
+#email-link:hover {
   font-weight: 550;
+}
+
+#email-link {
+  text-decoration: none;
 }
 
 .preview .left {
