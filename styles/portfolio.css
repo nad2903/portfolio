@@ -1,10 +1,12 @@
 body {
   display: block;
   margin: 20px auto;
+  margin-top: 0;
   text-align: center;
 }
 
 .hero {
+  margin-top: 50px;
   padding: 50px;
   padding-bottom: 40px;
   text-align: center;
